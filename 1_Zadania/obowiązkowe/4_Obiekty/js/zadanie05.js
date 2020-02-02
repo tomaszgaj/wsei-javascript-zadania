@@ -1,3 +1,4 @@
+// Zadanie 5
 var animals = [
     {
         type: "cat",
@@ -31,3 +32,11 @@ var animals = [
     }
 
 ]
+for(var x in animals){
+        console.log(animals[x]);
+        for(var y = 0; y < animals[x].health.length; y++){
+            for(var z in animals[x].health[y]){
+                console.log(animals[x].health[y][z]);
+            }
+         }
+}

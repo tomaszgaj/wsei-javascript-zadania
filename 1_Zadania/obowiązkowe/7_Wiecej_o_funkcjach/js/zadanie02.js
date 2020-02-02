@@ -1,3 +1,4 @@
+//Zadanie 2
 function callOtherFunction(nameOfFunction) {
     console.log("Cześć jestem funkcją o nazwie 'callOtherFunction' i wywołuję funkcję, którą ktoś mi wrzucił jako parametr");
 
@@ -12,3 +13,5 @@ callOtherFunction(function (a, b) {
     console.log("Wynik", a + b)
 })
 
+callOtherFunction(Math.max);
+callOtherFunction(Math.min);

@@ -17,12 +17,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     function innerFuncOne() {
+    // Dodanie parametru do funkcji przyjmującego context
+    function innerFuncOne(element) {
       // Tutaj this wskazuje na element Window, bo funkcja została
       //wywołana bez żadnego kontekstu.
       console.log("innerFuncOne: ", this);
+      console.log("innerFuncOne: ", element);
+
+      element.style.backgroundColor = 'red';
     }
     innerFuncOne();
+    innerFuncOne(this);
 
   });
 
-})

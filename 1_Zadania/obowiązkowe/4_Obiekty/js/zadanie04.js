@@ -1,3 +1,5 @@
+
+// Zadanie 4
 var movie = {
     director: "Peter Jackson",
     writers: [" J.R.R. Tolkien ", "Fran Walsh", "Philippa Boyens", "Peter Jackson"],
@@ -8,4 +10,9 @@ var movie = {
     year: 2001,
     time: "2h 58 min",
     category: " Adventure, Drama, Fantasy"
+}
+
+
+for(var x in movie){
+    console.log(x + " : " + movie[x]);
 }

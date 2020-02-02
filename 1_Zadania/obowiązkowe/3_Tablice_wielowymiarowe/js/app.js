@@ -22,6 +22,14 @@ var arr = [
     [1, 34],
 ];
 
+var arr = [
+    [11, 12],
+    [42, 2],
+    [-4, -120],
+    [0, 0],
+    [1, 34],
+];
+
 
 // Zadanie 0
 
@@ -81,7 +89,7 @@ function print2dArray(arr) {
 
 // Zadanie 4
 
-let arr = [[1,2], [3,4], [5,6]];
+let arr = [[1,2], [3,4], [5,6]];git add 
 print2dArray(arr);
 
 
